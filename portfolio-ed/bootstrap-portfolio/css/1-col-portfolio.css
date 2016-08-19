@@ -1,0 +1,19 @@
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family: 'Denk One', sans-serif;
+}
+
+.btn-primary {
+	background-color: #000000;
+	border-color: #000000;
+	color: #FFFFFF;
+}
+
+.footer-icon {
+	text-align: center;
+	color: #000000;
+}
+
+footer {
+    margin: 50px 0;
+}

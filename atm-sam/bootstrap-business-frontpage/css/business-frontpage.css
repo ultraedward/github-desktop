@@ -41,6 +41,21 @@ hr {
     text-align: center;
 }
 
+/* heart icon color */
+.fa-heart-o  {
+    color: #ff6347;
+}
+
+/* currency icon color */
+.fa-money {
+    color: #ADFF2F;
+}
+
+/* life saver color */
+.fa-life-ring {
+    color: #002A50;
+}
+
 /* form buttons */
 .btn-primary {
     background-color: #002A50;
