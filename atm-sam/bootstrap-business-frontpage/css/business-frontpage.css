@@ -41,6 +41,17 @@ hr {
     text-align: center;
 }
 
+/* form buttons */
+.btn-primary {
+    background-color: #002A50;
+}
+
+.btn-default {
+    color: #FFFFFF;
+    background-color: #002A50;
+    border-color: #204d74;
+}
+
 footer {
     margin: 50px 0;
 }
