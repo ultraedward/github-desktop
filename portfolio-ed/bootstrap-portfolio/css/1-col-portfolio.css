@@ -3,10 +3,18 @@ body {
     font-family: 'Denk One', sans-serif;
 }
 
+p {
+	background-color: #FEEFAE;
+}
+
 .btn-primary {
 	background-color: #000000;
 	border-color: #000000;
 	color: #FFFFFF;
+}
+
+.page-header {
+	color: #EE4E00;
 }
 
 .footer-icon {
