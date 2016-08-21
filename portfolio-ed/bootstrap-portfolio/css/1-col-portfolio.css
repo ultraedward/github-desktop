@@ -21,6 +21,26 @@ h4 {
 	color: #EE4E00;
 }
 
+/* social media icons */
+ul {
+	margin: auto;
+	overflow: auto;
+}
+
+ul li {
+	list-style-type: none;
+	float: right;
+}
+
+ul li a i {
+	color: #000000;
+	width: 40px;
+	height: 40px;
+	margin-right: 11px;
+	padding-top: 25%;
+}
+/* end social media icons */
+
 .footer-icon {
 	text-align: center;
 	color: #000000;

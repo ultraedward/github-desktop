@@ -27,9 +27,13 @@ body {
     font-size: 300;
 }
 
-/*  */
+.front-logo {
+    text-align: center;
+}
+
+/* hr spacing */
 hr {
-    margin: 57px;
+    margin: 57px 0;
 }
 
 .img-center {
