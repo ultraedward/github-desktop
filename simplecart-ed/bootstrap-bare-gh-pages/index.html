@@ -16,7 +16,6 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="css/custom.css">
-    </style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -25,12 +24,14 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <link href="https://fonts.googleapis.com/css?family=Londrina+Outline" rel="stylesheet">
+
 </head>
 
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -65,7 +66,7 @@
             <div class="col-lg-12">
 
                 <div class="simpleCart_shelfItem">
-                    <img src="/images/item_thumb.jpg" class="item_thumb" />
+                    <img src="/images/item_thumb.jpg" class="item_thumb" alt="number-one"/>
                         <h2 class="item_name"> Awesome T-shirt </h2>
                         <select class="item_size">
                             <option value="Small"> Small </option>
@@ -74,37 +75,41 @@
                     </select>
 
                     <input type="text" value="1" class="item_Quantity">
-                            <span class="item_price">$35.99</span>
+                            <span class="item_price">$8.88</span>
                             <a class="item_add" href="javascript:;"> Add to Cart </a>
                 </div>  
    
         <!-- cart details -->
-        <div class="container cart-list">
-            <!-- show the cart -->
-            <div class="simpleCart_items"></div>
-
-            <!-- cart total (ex. $23.11)-->
-            <div class="simpleCart_total"></div>
-
-            <!-- shipping (ex. $5.00) -->
-            <div class="simpleCart_shipping"></div>
-
-            <!-- grand total, including tax and shipping (ex. $28.49) -->
-            <div class="simpleCart_grandTotal"></div>
+        <div class="row cart-list">
+              <div class="col-md-12">
+                <!-- show the cart -->
+                <div class="simpleCart_items"></div>
+              </div>
+              <div class="col-md-12">
+                <!-- cart total (ex. $23.11)-->
+                <div class="simpleCart_toal"></div>
+              </div>
+              <div class="col-md-12">
+                <!-- shipping (ex. $5.00) -->
+                <div class="simpleCart_shipping"></div>
+              </div>
+              <div class="col-md-12">
+                <!-- grand total, including tax and shipping (ex. $28.49) -->
+                <div class="simpleCart_grandTotal"></div>
+              </div>
         </div>
 
         <!-- checkout container -->
-        <div class="container check-out">
+        <div class="check-out">
             <span class="simpleCart_quantity"></span> items - <span class="simpleCart_total"></span>
             <a href="javascript:;" class="simpleCart_checkout">Checkout</a>
         </div>
 
-
-            </div>
         </div>
-        <!-- /.row -->
 
-    </div>
+
+
+
     <!-- /.container -->
 
     <!-- jQuery Version 1.11.1 -->
@@ -124,9 +129,9 @@
         shippingFlatRate: 10,
         cartStyle: "table"
     });
+
+
     </script>
-
-
 
 
 </body>
