@@ -74,3 +74,15 @@ hr {
 footer {
     margin: 50px 0;
 }
+
+/* start profit page css */
+.profit-img {
+    float: left;
+    margin-right: 15px;
+}
+
+/* start faq page css */
+.atm {
+    float: right;
+    margin: 0 0 35px 35px;
+}
