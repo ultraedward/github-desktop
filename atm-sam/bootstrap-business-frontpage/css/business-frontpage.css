@@ -29,6 +29,7 @@ body {
 
 .front-logo {
     text-align: center;
+    border-radius: 15px;
 }
 
 /* hr spacing */
@@ -77,8 +78,9 @@ footer {
 
 /* start profit page css */
 .profit-img {
-    float: left;
-    margin-right: 15px;
+    float: right;
+    margin-left: 25px;
+    border-radius: 15px;
 }
 
 /* start faq page css */
