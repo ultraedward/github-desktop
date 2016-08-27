@@ -4,7 +4,11 @@ body {
 }
 
 p {
-	background-color: #FEEFAE;
+	background-color: #a2b5cd;
+}
+
+img {
+	border-radius: 5px;
 }
 
 h4 {
