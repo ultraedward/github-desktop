@@ -1,9 +1,9 @@
 <?php
 
 // configure
-$from = 'Demo contact form <info@zoomonk.com>';
-$sendTo = 'Demo contact form <ultra.edward@gmail.com>';
-$subject = 'New message from contact form';
+$from = 'Dark Blue ATM contact form <http://www.darkblueco.com/contact.html>';
+$sendTo = 'Demo contact form <srad@darkblueco.com>';
+$subject = 'New message from Dark Blue ATM';
 $fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in email
 $okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
 $errorMessage = 'There was an error while submitting the form. Please try again later';
