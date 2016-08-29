@@ -4,10 +4,22 @@ body {
 	font-family: 'Londrina Outline', cursive;
 }
 
+/* shelf items */
+
+.simpleCart_shelfItem {
+	display: inline;
+}
+
+.simpleCart_shelfItem img {
+	display: block;
+}
+
+/* cart */
 .cart-list {
 	margin-top: 75px;
 }
 
+/* checkout */
 .check-out {
 	margin-top: 50px;
 }

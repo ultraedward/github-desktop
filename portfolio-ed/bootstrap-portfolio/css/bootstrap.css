@@ -1214,7 +1214,7 @@ h6 .small,
 .h6 .small {
   font-weight: normal;
   line-height: 1;
-  color: #777;
+  color: #FFFF00;
 }
 h1,
 .h1,
@@ -3126,7 +3126,7 @@ fieldset[disabled] .btn-default.focus {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #696969;
+  background-color: #204D74;
   border-color: #204d74;
 }
 .btn-primary:active,
