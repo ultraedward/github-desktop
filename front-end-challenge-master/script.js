@@ -1,3 +1,4 @@
+// main content populate
 function domobj(){
   var self        =this;
   self.products   = [];
@@ -52,7 +53,7 @@ page.getproducts('data.json');
 setTimeout("console.log('building html');page.updateproducthtml();",20);
 setTimeout("page.updatedom()",50)
 
-// jquery x-button close
+// jquery product-container x
 $(document).ready(function() {
   $('.close').on('click', function(){
     $(this).parent().fadeOut('slow', function(){
