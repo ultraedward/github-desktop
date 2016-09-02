@@ -56,7 +56,7 @@ setTimeout("page.updatedom()",50)
 // jquery product-container x
 $(document).ready(function() {
   $('.close').on('click', function(){
-    $(this).parent().fadeOut('slow', function(){
+    $(this).closest('.col-md-4').find('.col-md-4').fadeOut('slow', function(){ console.log('worked')
     });
   }); 
 });
