@@ -54,11 +54,9 @@ setTimeout("console.log('building html');page.updateproducthtml();",20);
 setTimeout("page.updatedom()",50)
 
 // jquery product-container x
-function handler(ev) {
-    var target = $(ev.target);
-    var elId = target.attr('id');
-    if( target.is(".el") ) {
-       alert('The mouse was over'+ elId );
-    }
-}
-$(".el").mouseleave(handler);
+$(document).ready(function() {
+  $('.close').on('click', function(){
+    $('.product-container').fadeOut('slow', function(){
+    });
+  }); 
+});
