@@ -1,3 +1,10 @@
+// jquery product-container x
+$(document).ready(function() {
+  $('.close').on('click', function(){
+    console.log('log')
+  });
+});
+
 // main content populate
 function domobj(){
   var self        =this;
@@ -56,7 +63,9 @@ setTimeout("page.updatedom()",50)
 // jquery product-container x
 $(document).ready(function() {
   $('.close').on('click', function(){
-    $('.product-container').fadeOut('slow', function(){
-    });
+    // console closest element with class=".product-container"
+    console.log($(this).closest('.product-container'))
+    // hide this selected element
+    $(this).closest('.product-container').hide()
   }); 
 });
