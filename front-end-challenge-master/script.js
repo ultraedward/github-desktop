@@ -1,9 +1,11 @@
-// jquery product-container x
-$(document).ready(function() {
-  $('.close').on('click', function(){
-    console.log('log')
+// preloader
+$(document).ready(function() { // makes sure the whole site is loaded
+  $('#status').fadeOut(); // will first fade out the loading animation
+  $('#preloader').delay(1200).fadeOut('slow'); // will fade out the white DIV that covers the website.
+  $('body').delay(1100).css({
+    'overflow': 'visible'
   });
-});
+})
 
 // main content populate
 function domobj(){
@@ -62,10 +64,11 @@ setTimeout("page.updatedom()",50)
 
 // jquery product-container x
 $(document).ready(function() {
+  console.log('welcome to jquery')
   $('.close').on('click', function(){
-    // console closest element with class=".product-container"
-    console.log($(this).closest('.product-container'))
-    // hide this selected element
-    $(this).closest('.product-container').hide()
+      // console closest element with class=".product-container"
+      console.log($(this).closest('.product-container'))
+      // hide this selected element
+      $(this).closest('.product-container').hide()
   }); 
 });
