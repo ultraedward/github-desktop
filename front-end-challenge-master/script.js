@@ -64,7 +64,7 @@ setTimeout("page.updatedom()",50)
 
 // jquery product-container x
 $(document).ready(function() {
-  console.log('welcome to jquery')
+  console.log('jquery is working')
   $('.close').on('click', function(){
       // console closest element with class=".product-container"
       console.log($(this).closest('.product-container'))

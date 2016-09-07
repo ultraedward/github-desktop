@@ -6,7 +6,6 @@
   right: 0;
   bottom: 0;
   background-color: #fff;
-  /* change if the mask should have another color then white */
   z-index: 101;
 }
 
@@ -15,15 +14,12 @@
   height: 200px;
   position: absolute;
   left: 50%;
-  /* centers the loading animation horizontally one the screen */
   top: 50%;
-  /* centers the loading animation vertically one the screen */
   background-image: url(https://raw.githubusercontent.com/niklausgerber/PreLoadMe/master/img/status.gif);
-  /* path to your loading animation */
   background-repeat: no-repeat;
   background-position: center;
   margin: -100px 0 0 -100px;
-  /* is width and height divided by two */
+  /*is width and height divided bytwo */
 }
 /*end preloader*/
 
@@ -35,7 +31,7 @@ a{text-decoration: none; color: #0096ff;}
     border-bottom: solid #000000;
     border-bottom-width: thin;
     display:inline-block; 
-    padding: 0;
+    padding: 5px;
     margin: 5px 0;
 
 }
